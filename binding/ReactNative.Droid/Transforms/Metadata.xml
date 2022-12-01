@@ -220,4 +220,63 @@
     <attr path="/api/package[@name='com.facebook.react.views.scroll']/class[@name='ReactHorizontalScrollContainerViewManager']/method[@name='createViewInstance' and count(parameter)=1 and parameter[1][@type='com.facebook.react.uimanager.ThemedReactContext']]" name="visibility">protected</attr>
     <!-- ReactSliderManager -->
     <attr path="/api/package[@name='com.facebook.react.views.slider']/class[@name='ReactSliderManager']/method[@name='createViewInstance' and count(parameter)=1 and parameter[1][@type='com.facebook.react.uimanager.ThemedReactContext']]" name="managedReturn">Java.Lang.Object</attr>
+
+    <attr path="/api/package[@name='com.facebook.react.modules.systeminfo']/class[@name='AndroidInfoModule']/method[@name='getTypedExportedConstants' and count(parameter)=0]" name="visibility">protected</attr>
+    <attr path="/api/package[@name='com.facebook.react.modules.toast']/class[@name='ToastModule']/method[@name='getTypedExportedConstants' and count(parameter)=0]" name="visibility">protected</attr>
+    <attr path="/api/package[@name='com.facebook.react.views.modal']/class[@name='ReactModalHostManager']/method[@name='getDelegate' and count(parameter)=0]" name="visibility">protected</attr>
+    <attr path="/api/package[@name='com.facebook.react.modules.i18nmanager']/class[@name='I18nManagerModule']/method[@name='getTypedExportedConstants' and count(parameter)=0]" name="visibility">protected</attr>
+    <attr path="/api/package[@name='com.facebook.react.modules.statusbar']/class[@name='StatusBarModule']/method[@name='getTypedExportedConstants' and count(parameter)=0]" name="visibility">protected</attr>
+    <attr path="/api/package[@name='com.facebook.react.modules.appstate']/class[@name='AppStateModule']/method[@name='getTypedExportedConstants' and count(parameter)=0]" name="visibility">protected</attr>
+    <attr path="/api/package[@name='com.facebook.react.devsupport']/class[@name='JSDevSupport']/method[@name='getTypedExportedConstants' and count(parameter)=0]" name="visibility">protected</attr>
+    <attr path="/api/package[@name='com.facebook.react.modules.deviceinfo']/class[@name='DeviceInfoModule']/method[@name='getTypedExportedConstants' and count(parameter)=0]" name="visibility">protected</attr>
+    <attr path="/api/package[@name='com.facebook.react.modules.blob']/class[@name='BlobModule']/method[@name='getTypedExportedConstants' and count(parameter)=0]" name="visibility">protected</attr>
+    <attr path="/api/package[@name='com.facebook.react.modules.deviceinfo']/class[@name='DeviceInfoModule']/method[@name='getTypedExportedConstants' and count(parameter)=0]" name="visibility">protected</attr>
+    <attr path="/api/package[@name='com.facebook.react.modules.dialog']/class[@name='DialogModule']/method[@name='getTypedExportedConstants' and count(parameter)=0]" name="visibility">protected</attr>
+
+
+
+   <remove-node path="/api/package[@name='com.facebook.react.views.text']/class[@name='ReactRawTextManager']" />
+  <remove-node path="/api/package[@name='com.facebook.react.views.text']/class[@name='ReactVirtualTextViewManager']" />
+  <remove-node path="/api/package[@name='com.facebook.react.uimanager']/class[@name='RootViewManager']" />
+  <remove-node path="/api/package[@name='com.facebook.react.uimanager']/class[@name='UIManagerModule']" />
+  <remove-node path="/api/package[@name='com.facebook.react.views.text.frescosupport']/class[@name='FrescoBasedReactTextInlineImageViewManager']" />
+  <remove-node path="/api/package[@name='com.facebook.react.uimanager']/class[@name='ViewManagerPropertyUpdater']/method[@name='updateProps' and count(parameter)=3 and parameter[1][@type='T'] and parameter[2][@type='V'] and parameter[3][@type='com.facebook.react.uimanager.ReactStylesDiffMap']]" />
+
+  <remove-node path="/api/package[@name='com.facebook.react.views.scroll']/class[@name='ReactScrollViewManager']" />
+  <remove-node path="/api/package[@name='com.facebook.react.views.view']/class[@name='ReactViewManager']" />
+  <remove-node path="/api/package[@name='com.facebook.react.views.scroll']/class[@name='ReactHorizontalScrollViewManager']" />
+  <remove-node path="/api/package[@name='com.facebook.react.views.modal']/class[@name='ReactModalHostManager']" />
+  <remove-node path="/api/package[@name='com.facebook.react.views.progressbar']/class[@name='ReactProgressBarViewManager']" />
+  <remove-node path="/api/package[@name='com.facebook.react.views.unimplementedview']/class[@name='ReactUnimplementedViewManager']" />
+  <remove-node path="/api/package[@name='com.facebook.react.views.scroll']/class[@name='ReactHorizontalScrollContainerViewManager']" />
+  <remove-node path="/api/package[@name='com.facebook.react.fabric']/class[@name='FabricUIManager']" />
+  <remove-node path="/api/package[@name='com.facebook.react.bridge']/class[@name='ReadableNativeArray']" />
+
+  <remove-node path="/api/package[@name='com.reactnativecommunity.webview']/class[@name='RNCWebViewPackage']" />
+  <remove-node path="/api/package[@name='com.facebook.yoga']/class[@name='YogaNodeJNIBase']/method[@name='getParent' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.sprinklr.messenger.react.module.SPRLinearGradient']/class[@name='SPRLinearGradient']" />
+  <remove-node path="/api/package[@name='com.facebook.react.bridge']/class[@name='CatalystInstanceImpl']" />
+
+  <remove-node path="/api/package[@name='com.spr.messengerclient.utils']/class[@name='ForegroundCheckTask']" />
+  <remove-node path="/api/package[@name='com.facebook.react.modules.systeminfo']/class[@name='AndroidInfoModule']/method[@name='getTypedExportedConstants' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.facebook.yoga']/class[@name='YogaNode']" />
+  <remove-node path="/api/package[@name='com.facebook.yoga']/class[@name='YogaNodeJNIBase']/method[@name='getOwner' and count(parameter)=0]" />
+
+
+  <remove-node path="/api/package[@name='com.facebook.react.bridge']/class[@name='GuardedAsyncTask']" />
+  <remove-node path="/api/package[@name='com.facebook.react.devsupport']/class[@name='DevSupportManagerBase']" />
+  <remove-node path="/api/package[@name='com.reactnativecommunity.webview']/class[@name='RNCWebViewManager']" />
+  <remove-node path="/api/package[@name='com.facebook.react.modules.blob']/class[@name='BlobModule']/method[@name='getTypedExportedConstants' and count(parameter)=0]" />
+
+  <remove-node path="/api/package[@name='com.facebook.react.modules.blob']/class[@name='BlobModule']" />
+  <remove-node path="/api/package[@name='com.facebook.react.devsupport']/class[@name='JSDevSupport']/method[@name='getTypedExportedConstants' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.facebook.react.modules.network']/class[@name='ForwardingCookieHandler']" />
+  <remove-node path="/api/package[@name='com.facebook.react.bridge']/class[@name='WritableNativeMap']" />
+
+  <remove-node path="/api/package[@name='com.facebook.react.bridge']/class[@name='ReadableNativeMap']" />
+  <remove-node path="/api/package[@name='com.facebook.react.modules.toast']/class[@name='ToastModule']/method[@name='getTypedExportedConstants' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.facebook.react.modules.systeminfo']/class[@name='AndroidInfoModule']" />
+  <remove-node path="/api/package[@name='com.facebook.react.devsupport']/class[@name='JSDevSupport']" />
+  <remove-node path="/api/package[@name='com.facebook.react.modules.toast']/class[@name='ToastModule']" />
+
 </metadata>
