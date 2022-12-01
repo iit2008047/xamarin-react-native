@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
+    <Reference Include="SoloaderBinding">
+      <HintPath>packages\XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader.0.6.0\lib\MonoAndroid10\SoloaderBinding.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -59,12 +62,12 @@
       <Link>Jars\react-native-0.68.3.aar</Link>
     </LibraryProjectZip>
     <LibraryProjectZip Include="Jars\android-jsc-r174650.aar" />
+    <LibraryProjectZip Include="Jars\fresco-2.5.0.aar" />
+    <LibraryProjectZip Include="Jars\fbjni-0.2.2.aar" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedJar Include="Jars\javax.inject-1.jar" />
-    <EmbeddedJar Include="Jars\soloader-0.10.3.jar" />
     <EmbeddedJar Include="Jars\fbcore-1.5.0.jar" />
-    <EmbeddedJar Include="Jars\fresco-1.5.0.jar" />
     <EmbeddedJar Include="Jars\drawee-1.5.0.jar" />
     <EmbeddedJar Include="Jars\imagepipeline-base-1.5.0.jar" />
     <EmbeddedJar Include="Jars\imagepipeline-okhttp3-1.5.0.jar" />
@@ -74,6 +77,7 @@
     <EmbeddedJar Include="Jars\bolts-tasks-1.4.0.jar" />
     <EmbeddedJar Include="Jars\okhttp-4.4.1.jar" />
     <EmbeddedJar Include="Jars\okhttp-urlconnection-4.9.2.jar" />
+    <EmbeddedJar Include="Jars\infer-annotation-0.11.2.jar" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedNativeLibrary Include="Jni\arm64-v8a\libimagepipeline.so" />

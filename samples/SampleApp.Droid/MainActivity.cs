@@ -37,11 +37,12 @@ namespace SampleApp.Droid
             mReactRootView = new ReactRootView(this);
             mReactInstanceManager = ReactInstanceManager.Builder()
                     .SetApplication(Application)
+                    .SetCurrentActivity(this) // <== *** HERE ***
                     .SetBundleAssetName("index.android.bundle")
                     .SetJSMainModulePath("index")
                     .AddPackage(new MainReactPackage())
 #if DEBUG
-                    .SetUseDeveloperSupport(true)
+                    .SetUseDeveloperSupport(false)
 #else
                     .SetUseDeveloperSupport(false)
 #endif

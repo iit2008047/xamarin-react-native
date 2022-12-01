@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{72D1B391-859D-4927-92E5-E911A1887036}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.SampleApp.Droid PreferredExecutionTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleApp.Droid/obj/Debug/android/src/mono/com/facebook/react/devsupport/MultipartStreamReader_ChunkListenerImplementor.java">
+    <Files>
+      <File FileName="SampleApp.Droid/obj/Debug/android/src/mono/com/facebook/react/devsupport/MultipartStreamReader_ChunkListenerImplementor.java" Line="6" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SampleApp" expanded="True">
+            <Node name="SampleApp.Droid" expanded="True" selected="True">
+              <Node name="References" expanded="True" />
+              <Node name="Packages" expanded="True" />
+              <Node name="Assets" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
