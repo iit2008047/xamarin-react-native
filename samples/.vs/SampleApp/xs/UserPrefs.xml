@@ -8,9 +8,11 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SampleApp.Droid/obj/Debug/android/src/mono/com/facebook/react/devsupport/MultipartStreamReader_ChunkListenerImplementor.java">
+  <MonoDevelop.Ide.Workbench ActiveDocument="packages/Xamarin.AndroidX.Migration.1.0.0/build/monoandroid90/Xamarin.AndroidX.Migration.targets">
     <Files>
-      <File FileName="SampleApp.Droid/obj/Debug/android/src/mono/com/facebook/react/devsupport/MultipartStreamReader_ChunkListenerImplementor.java" Line="6" Column="1" />
+      <File FileName="SampleApp.Droid/SampleApp.Droid.csproj" Line="279" Column="11" />
+      <File FileName="packages/Xamarin.AndroidX.Migration.1.0.8/build/monoandroid90/Xamarin.AndroidX.Migration.targets" Line="304" Column="9" />
+      <File FileName="packages/Xamarin.AndroidX.Migration.1.0.0/build/monoandroid90/Xamarin.AndroidX.Migration.targets" Line="131" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

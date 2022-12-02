@@ -279,4 +279,11 @@
   <remove-node path="/api/package[@name='com.facebook.react.devsupport']/class[@name='JSDevSupport']" />
   <remove-node path="/api/package[@name='com.facebook.react.modules.toast']/class[@name='ToastModule']" />
 
+
+  <attr path="/api/package[@name='com.facebook.drawee.controller']/class[@name='AbstractDraweeControllerBuilder']/method[@name='setOldController' and count(parameter)=1 and parameter[1][@type='com.facebook.drawee.interfaces.DraweeController']]" name="managedReturn">Com.Facebook.Drawee.Interfaces.ISimpleDraweeControllerBuilder</attr>
+ <attr path="/api/package[@name='com.facebook.drawee.controller']/class[@name='AbstractDraweeControllerBuilder']/method[@name='build' and count(parameter)=0]" name="managedReturn">Com.Facebook.Drawee.Interfaces.IDraweeController</attr>
+ <attr path="/api/package[@name='com.facebook.drawee.controller']/class[@name='AbstractDraweeControllerBuilder']/method[@name='setCallerContext' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]" name="managedReturn">Com.Facebook.Drawee.Interfaces.ISimpleDraweeControllerBuilder</attr>
+
+ <attr path="/api/package[@name='com.facebook.drawee.drawable']/class[@name='AutoRotateDrawable']/method[@name='cloneDrawable' and count(parameter)=0]" name="managedReturn">Android.Graphics.Drawables.Drawable</attr>
+
 </metadata>

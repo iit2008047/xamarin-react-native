@@ -62,16 +62,10 @@
       <Link>Jars\react-native-0.68.3.aar</Link>
     </LibraryProjectZip>
     <LibraryProjectZip Include="Jars\android-jsc-r174650.aar" />
-    <LibraryProjectZip Include="Jars\fresco-2.5.0.aar" />
     <LibraryProjectZip Include="Jars\fbjni-0.2.2.aar" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedJar Include="Jars\javax.inject-1.jar" />
-    <EmbeddedJar Include="Jars\fbcore-1.5.0.jar" />
-    <EmbeddedJar Include="Jars\drawee-1.5.0.jar" />
-    <EmbeddedJar Include="Jars\imagepipeline-base-1.5.0.jar" />
-    <EmbeddedJar Include="Jars\imagepipeline-okhttp3-1.5.0.jar" />
-    <EmbeddedJar Include="Jars\imagepipeline-1.5.0.jar" />
     <EmbeddedJar Include="Jars\jsr305-3.0.2.jar" />
     <EmbeddedJar Include="Jars\textlayoutbuilder-1.1.0.jar" />
     <EmbeddedJar Include="Jars\bolts-tasks-1.4.0.jar" />
